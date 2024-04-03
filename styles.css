@@ -1,0 +1,110 @@
+html{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+#listContainer1{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+  
+#listContainer2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#passList1,#passList2,#passList3,#passList4{
+    width: 200px;
+    display:flex;
+    justify-content:center; 
+    align-items:center; 
+    width: 100px;
+    height:40px;
+    background-color: #b11018;
+    border: 1.2px solid #ffffff ;
+    color:#ffffff;
+    padding:10px 100px;
+    margin-top: -5px;
+    border-radius: 15px; 
+}
+
+#errorPar{
+    margin-top: 65px;
+    margin-bottom: -30px;
+    padding: auto;
+    height: 40px;
+}
+
+#passwdList{
+    color: #fff;;  
+    margin-top: -10px;
+    margin-bottom: -60px;
+}
+
+#inputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#numberOfCharacters{
+    width:200px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #b11018;
+    border: 1.2px solid #ffffff ;
+    color:#ffffff;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#randomGeneratorButton{
+    width: 206px;
+    padding: 17px 16px;
+    background-color: #b11018;
+    border: 1.2px solid #ffffff ;
+    color:#ffffff;
+
+    border-radius: 5px;
+}
+
+::placeholder{
+    color:#ffffff ;
+}
+
+h1{
+    
+    color:#b11018 ;
+    font-size: 1cm;
+    margin-bottom: -20px;
+}
+
+h2{
+    color: #ffffff;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h5{
+    margin-top:-15px;
+    font-weight: bolder;
+}
+
+p{
+    font-weight: bolder;
+}
+
